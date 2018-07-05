@@ -1,0 +1,60 @@
+%Criado por Marco Antonio Faganello a partir do objeto  bd01_dicionario em  C:/Users/Marco Faganello/Dropbox/Estatisticas Essenciais/Estatísticas Municipais 
+\begin{table}[h] 
+\begin{center} 
+\begin{tabular}{r|l|l} 
+\hline 
+\hline 
+\multirow{3}{*}{1} & \multirow{3}{*}{ano} & Ano\\
+&&  numeric  \\ 
+&&  Instituto Brasileiro de Geografia e Estatística (IBGE)  \\ 
+\hline 
+\multirow{3}{*}{2} & \multirow{3}{*}{uf} & Unidade da federação (UF)/ Estado\\
+&&  character  \\ 
+&&  Instituto Brasileiro de Geografia e Estatística (IBGE)  \\ 
+\hline 
+\multirow{3}{*}{3} & \multirow{3}{*}{ano\_uf} & Join das variáveis ano e uf separados por \_\\
+&&  character  \\ 
+&&  Instituto Brasileiro de Geografia e Estatística (IBGE)  \\ 
+\hline 
+\multirow{3}{*}{4} & \multirow{3}{*}{cod\_uf} & Código IBGE da UF\\
+&&  character  \\ 
+&&  Instituto Brasileiro de Geografia e Estatística (IBGE)  \\ 
+\hline 
+\multirow{3}{*}{5} & \multirow{3}{*}{cod\_tse} & Código do Tribunal Superior Eleitoral (TSE) do município (5 dígitos)\\
+&&  character  \\ 
+&&  Tribunal Superior Eleitoral (TSE)  \\ 
+\hline 
+\multirow{3}{*}{6} & \multirow{3}{*}{cod\_ibge} & Código IBGE do município sem o dígito verificador (6 dígitos)\\
+&&  character  \\ 
+&&  Instituto Brasileiro de Geografia e Estatística (IBGE)  \\ 
+\hline 
+\multirow{3}{*}{7} & \multirow{3}{*}{cod\_ibgedv} & Código IBGE do município com o dígito verificador (7 dígitos)\\
+&&  character  \\ 
+&&  Instituto Brasileiro de Geografia e Estatística (IBGE)  \\ 
+\hline 
+\multirow{3}{*}{8} & \multirow{3}{*}{nome\_mun} & Nome do município sem acento, em maiúscula no padrão usado pelo IBGE\\
+&&  character  \\ 
+&&  Instituto Brasileiro de Geografia e Estatística (IBGE)  \\ 
+\hline 
+\multirow{3}{*}{9} & \multirow{3}{*}{pop} & Absoluto da população residento do município\\
+&&  integer  \\ 
+&&  IBGE - Censo 2000 e 2010/ Contagem 1996 e 2007/ Estimado para 1995, 1997 a 1999, 2001 a 2006, 2008 a 2009, 2011 a 2017  \\ 
+\hline 
+\multirow{3}{*}{10} & \multirow{3}{*}{popuf} & Absoluto da população residente da uf\\
+&&  integer  \\ 
+&&  IBGE - Censo 2000 e 2010/ Contagem 1996 e 2007/ Estimado para 1995, 1997 a 1999, 2001 a 2006, 2008 a 2009, 2011 a 2017  \\ 
+\hline 
+\multirow{3}{*}{11} & \multirow{3}{*}{popbra} & Absoluto da população residente no Brasil\\
+&&  integer  \\ 
+&&  IBGE - Censo 2000 e 2010/ Contagem 1996 e 2007/ Estimado para 1995, 1997 a 1999, 2001 a 2006, 2008 a 2009, 2011 a 2017  \\ 
+\hline 
+\multirow{3}{*}{12} & \multirow{3}{*}{popmunufp} & Percentual da população do município sobre o total na uf\\
+&&  numeric  \\ 
+&&  IBGE - Censo 2000 e 2010/ Contagem 1996 e 2007/ Estimado para 1995, 1997 a 1999, 2001 a 2006, 2008 a 2009, 2011 a 2017  \\ 
+\hline 
+\multirow{3}{*}{13} & \multirow{3}{*}{popmunbrap} & Percentual da população do município sobre o total no Brasil\\
+&&  numeric  \\ 
+&&  IBGE - Censo 2000 e 2010/ Contagem 1996 e 2007/ Estimado para 1995, 1997 a 1999, 2001 a 2006, 2008 a 2009, 2011 a 2017  \\ 
+\hline 
+\end{center} 
+\end{table}
